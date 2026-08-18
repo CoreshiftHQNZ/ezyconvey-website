@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { LayoutDashboard, FileText, ListChecks, ShieldCheck, Calculator, Home, CreditCard, Eye, Mail, Clock } from 'lucide-react';
+import { Editable } from '@coreshift/live-edit';
 import AnimateIn from './AnimateIn';
 
 type Tab = 'lawyers' | 'buyers' | 'agents';
@@ -51,12 +52,12 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimateIn>
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-navy-800 mb-4">
+            <Editable as="h2" path="features.heading" className="text-3xl sm:text-4xl font-bold text-navy-800 mb-4">
               Tailored for Every Party
-            </h2>
-            <p className="text-lg text-navy-800/60 max-w-2xl mx-auto">
+            </Editable>
+            <Editable as="p" path="features.subheading" className="text-lg text-navy-800/60 max-w-2xl mx-auto">
               Whether you're a lawyer, buyer, seller, or agent — EzyConvey gives you the tools you need.
-            </p>
+            </Editable>
           </div>
         </AnimateIn>
 

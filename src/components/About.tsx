@@ -1,4 +1,5 @@
 import { Shield, Lightbulb, HeartHandshake, Target, Rocket, Users } from 'lucide-react';
+import { Editable } from '@coreshift/live-edit';
 import AnimateIn from './AnimateIn';
 
 export default function About() {
@@ -9,21 +10,21 @@ export default function About() {
           {/* Left */}
           <div>
             <AnimateIn>
-              <p className="text-sm font-semibold text-blue-600 uppercase tracking-wider mb-3">About EzyConvey</p>
-              <h2 className="text-3xl sm:text-4xl font-bold text-navy-800 mb-6">
+              <Editable as="p" path="about.eyebrow" className="text-sm font-semibold text-blue-600 uppercase tracking-wider mb-3">About EzyConvey</Editable>
+              <Editable as="h2" path="about.heading" className="text-3xl sm:text-4xl font-bold text-navy-800 mb-6">
                 Australian Legal Technology, Built by Property Lawyers
-              </h2>
-              <p className="text-navy-800/70 leading-relaxed mb-6">
-                We are an Australian legal technology company dedicated to transforming the property law sector 
-                through innovative software solutions. Established in early 2023, we leverage cutting-edge technology 
-                to streamline legal processes, enhance compliance, and improve efficiency for law firms, conveyancers, 
+              </Editable>
+              <Editable as="p" path="about.body1" className="text-navy-800/70 leading-relaxed mb-6">
+                We are an Australian legal technology company dedicated to transforming the property law sector
+                through innovative software solutions. Established in early 2023, we leverage cutting-edge technology
+                to streamline legal processes, enhance compliance, and improve efficiency for law firms, conveyancers,
                 real estate professionals, as well as buyers and sellers.
-              </p>
-              <p className="text-navy-800/70 leading-relaxed mb-8">
-                What sets us apart is our deep legal expertise. Our products are developed with direct input from 
-                highly experienced property lawyers, ensuring that every feature aligns with real-world legal 
+              </Editable>
+              <Editable as="p" path="about.body2" className="text-navy-800/70 leading-relaxed mb-8">
+                What sets us apart is our deep legal expertise. Our products are developed with direct input from
+                highly experienced property lawyers, ensuring that every feature aligns with real-world legal
                 requirements and best practices.
-              </p>
+              </Editable>
             </AnimateIn>
 
             <AnimateIn delay={0.1}>

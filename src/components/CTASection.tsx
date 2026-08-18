@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import { Editable } from '@coreshift/live-edit';
 import AnimateIn from './AnimateIn';
 
 export default function CTASection() {
@@ -10,23 +11,23 @@ export default function CTASection() {
 
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <AnimateIn>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+          <Editable as="h2" path="cta.heading" className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
             Ready to streamline your property transactions?
-          </h2>
+          </Editable>
         </AnimateIn>
 
         <AnimateIn delay={0.1}>
-          <p className="text-lg text-blue-200/70 max-w-2xl mx-auto mb-10">
-            Join hundreds of Australian law firms, agents, and property buyers already using EzyConvey 
+          <Editable as="p" path="cta.body" className="text-lg text-blue-200/70 max-w-2xl mx-auto mb-10">
+            Join hundreds of Australian law firms, agents, and property buyers already using EzyConvey
             for faster, more transparent conveyancing.
-          </p>
+          </Editable>
         </AnimateIn>
 
         <AnimateIn delay={0.2}>
           <div className="flex flex-wrap justify-center gap-4 mb-12">
-            <a href="mailto:ejm@ejmadvisory.com.au" 
+            <a href="mailto:ejm@ejmadvisory.com.au"
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl transition-all hover:shadow-lg hover:shadow-blue-600/25 text-lg">
-              Book a Demo <ArrowRight size={20} />
+              <Editable as="span" path="cta.button">Book a Demo</Editable> <ArrowRight size={20} />
             </a>
           </div>
         </AnimateIn>

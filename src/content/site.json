@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "badge": "Trusted by 100+ Australian law firms",
+    "titleLead": "Bringing clarity to property contracts —",
+    "titleAccent": "for everyone involved",
+    "subtitle": "Real-time property contract tracking for lawyers, buyers/sellers and agents. All parties. One platform. Total transparency.",
+    "ctaPrimary": "Book a Demo",
+    "ctaSecondary": "Download App",
+    "images": [
+      { "src": "/images/dd147336-f23e-4d9b-aa00-6a4cdf34fa63.webp", "alt": "EzyConvey web dashboard" },
+      { "src": "/images/d2ce347e-7cdc-40e8-9804-b2a02d380a40.webp", "alt": "EzyConvey mobile app — agent dashboard" },
+      { "src": "/images/fc03671c-50c3-4057-aa3d-6837c0be2d2f.webp", "alt": "EzyConvey mobile — case details" }
+    ]
+  },
+  "features": {
+    "heading": "Tailored for Every Party",
+    "subheading": "Whether you're a lawyer, buyer, seller, or agent — EzyConvey gives you the tools you need."
+  },
+  "about": {
+    "eyebrow": "About EzyConvey",
+    "heading": "Australian Legal Technology, Built by Property Lawyers",
+    "body1": "We are an Australian legal technology company dedicated to transforming the property law sector through innovative software solutions. Established in early 2023, we leverage cutting-edge technology to streamline legal processes, enhance compliance, and improve efficiency for law firms, conveyancers, real estate professionals, as well as buyers and sellers.",
+    "body2": "What sets us apart is our deep legal expertise. Our products are developed with direct input from highly experienced property lawyers, ensuring that every feature aligns with real-world legal requirements and best practices."
+  },
+  "cta": {
+    "heading": "Ready to streamline your property transactions?",
+    "body": "Join hundreds of Australian law firms, agents, and property buyers already using EzyConvey for faster, more transparent conveyancing.",
+    "button": "Book a Demo"
+  }
+}
